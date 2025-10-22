@@ -1,0 +1,38 @@
+{
+  "name": "cypress-unused-steps",
+  "version": "1.0.0",
+  "description": "Find unused Cypress step definitions in your Cucumber/Gherkin test suite",
+  "main": "find-unused.mjs",
+  "type": "module",
+  "bin": {
+    "find-unused-steps": "./find-unused.mjs"
+  },
+  "scripts": {
+    "start": "node find-unused.mjs"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "gherkin",
+    "testing",
+    "step-definitions",
+    "unused",
+    "cleanup"
+  ],
+  "author": "Erik Raith",
+  "license": "MIT",
+  "dependencies": {
+    "fast-glob": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ERaith/cypress-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ERaith/cypress-scripts/issues"
+  },
+  "homepage": "https://github.com/ERaith/cypress-scripts#readme"
+}
